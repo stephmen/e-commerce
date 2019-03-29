@@ -10,6 +10,7 @@ server.start({
     credential: true,
     origin: process.env.FRONTEND_URL
   },
-}, deets =>{
+},
+deets =>{
   console.log(`Server is running on port http://localhost:${deets.port}`);
 });
