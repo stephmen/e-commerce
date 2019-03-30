@@ -11,7 +11,7 @@ description:String!
 image:String
 largeImage:String
 price: Int!
-createAt: DateTime!
-udpateAt: DateTime!
+#createAt: DateTime!
+#udpateAt: DateTime!
 # user: User!
 }
