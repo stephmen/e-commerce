@@ -1,3 +1,5 @@
+//This file fix the issue for CSS initial loading this is well documentent in NextJS site as well as in styled-components site as well;
+
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
@@ -21,4 +23,3 @@ export default class MyDocument extends Document {
     );
   }
 }
- 
