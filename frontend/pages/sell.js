@@ -1,4 +1,4 @@
-import CreateItem from '../components/CreateItemNew';
+import CreateItem from '../components/CreateItem';
 import Link from 'next/link';
 const Sell = props => (
   <div>
