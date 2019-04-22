@@ -11,6 +11,7 @@ class MyApp extends App {
     }
     // this expose the query to the user
     pageProps.query = ctx.query;
+    console.log(pageProps)
     return { pageProps };
   }
   render () {

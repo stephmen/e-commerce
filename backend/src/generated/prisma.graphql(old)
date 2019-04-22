@@ -1,5 +1,5 @@
 # source: https://us1.prisma.sh/stephmen-0871d8/stephmensickfit/dev
-# timestamp: Sat Apr 20 2019 23:34:08 GMT-0400 (GMT-04:00)
+# timestamp: Fri Apr 19 2019 23:20:50 GMT-0400 (GMT-04:00)
 
 type AggregateItem {
   count: Int!
@@ -944,5 +944,4 @@ input UserWhereInput {
 
 input UserWhereUniqueInput {
   id: ID
-  email: String
 }
