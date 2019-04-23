@@ -17,7 +17,7 @@ const User = props => (
   <Query {...props} query={CURRENT_USER_QUERY}>
     {payload => props.children(payload)}
   </Query>
-);
+); 
 User.PropTypes = {
   children: PropTypes.func.isRequired,
 };
