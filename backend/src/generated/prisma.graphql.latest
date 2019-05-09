@@ -1,5 +1,5 @@
 # source: https://us1.prisma.sh/stephmen-0871d8/stephmensickfit/dev
-# timestamp: Mon May 06 2019 09:39:49 GMT-0400 (GMT-04:00)
+# timestamp: Sun May 05 2019 22:10:09 GMT-0400 (GMT-04:00)
 
 type AggregateCartItem {
   count: Int!
@@ -37,7 +37,7 @@ type CartItemConnection {
 
 input CartItemCreateInput {
   id: ID
-  quantity: Int
+  quantity: Int!
   item: ItemCreateOneInput!
   user: UserCreateOneWithoutCartInput!
 }
@@ -49,7 +49,7 @@ input CartItemCreateManyWithoutUserInput {
 
 input CartItemCreateWithoutUserInput {
   id: ID
-  quantity: Int
+  quantity: Int!
   item: ItemCreateOneInput!
 }
 
