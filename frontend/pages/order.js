@@ -1,4 +1,4 @@
-import PleaseSignIn from '../components/PleaseSignin';
+import PleaseSignIn from '../components/PleaseSignIn';
 import Order from '../components/Order.js';
 
 import Link from 'next/link';

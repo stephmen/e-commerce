@@ -2,14 +2,14 @@ import { Query } from 'react-apollo';
 import { CURRENT_USER_QUERY } from './User';
 import Signin from './Signin';
 
-const PleaseSignin = props => (
+const PleaseSignIn = props => (
 <Query query={CURRENT_USER_QUERY}>
   {({ data, loading }) => {
     if (loading) return <p>Loading...</p>
     if (!data.me) {
       return(
         <div>
-          <p>Please Sign In Before Contining</p>
+          <p>Please Sign In Before Continuing</p>
           <Signin />
         </div>
       );
@@ -19,4 +19,4 @@ const PleaseSignin = props => (
   </Query>
 );
 
-export default PleaseSignin;
+export default PleaseSignIn;
