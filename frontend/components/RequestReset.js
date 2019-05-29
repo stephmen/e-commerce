@@ -1,4 +1,4 @@
-  import React, { Component } from "react";
+import React, { Component } from "react";
 import { Mutation  } from "react-apollo";
 import gql from "graphql-tag";
 import Form from "./styles/Form";
@@ -31,6 +31,7 @@ class ResetRequest extends Component {
         {(reset, { error, loading, called }) => (
           <Form
             method="post"
+            data-test="form"
             onSubmit={async e => {
               e.preventDefault();
               await reset();

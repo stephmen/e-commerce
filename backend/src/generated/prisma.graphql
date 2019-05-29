@@ -334,7 +334,7 @@ type Item implements Node {
   user: User!
 }
 
-"""A connection to a list of items."""
+"""A connection to a list of items.""" 
 type ItemConnection {
   """Information to aid in pagination."""
   pageInfo: PageInfo!

@@ -21,9 +21,9 @@ const SIGNUP_MUTATION = gql`
 
 class Signup extends Component {
   state = {
+    email: "",
     name: "",
     password: "",
-    email: ""
   };
   saveToState = e => {
     this.setState({ [e.target.name]: e.target.value });
@@ -90,3 +90,4 @@ class Signup extends Component {
   }
 }
 export default Signup;
+export { SIGNUP_MUTATION }
