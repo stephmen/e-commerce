@@ -1,0 +1,25 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/stephmen/e-commerce.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "DEV"]
+	remote = origin
+	merge = refs/heads/DEV
+[remote "heroku"]
+	url = https://git.heroku.com/sicks-fit-yoga-prod.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[remote "heroku-backend"]
+	url = https://git.heroku.com/sicks-fit-yoga-prod.git
+	fetch = +refs/heads/*:refs/remotes/heroku-backend/*
+[remote "heroku-frontend"]
+	url = https://git.heroku.com/sicks-fit-next-prod.git
+	fetch = +refs/heads/*:refs/remotes/heroku-frontend/*
